@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+
+.titleBox{
+  background-color: DarkSeaGreen;
+  height: 50px;
+  margin: 0;
+  width: 100%;
+}
+
+.titleName{
+  font-size: 30px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.textBio{
+  display: inline-block;
+  font-size: 12px;
+  width: 30%;
+  white-space: pre-wrap;
+}
+
+.bioLink{
+  display: inline-block;
+  height: 20px;
+  margin: 0;
+  width: 80px;
+}
+
+.titleProjects{
+  background-color: DarkSeaGreen;
+  font-size: 30px;
+  height: 50px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.homeLinks{
+  display: inline-block;
+  text-decoration: none;
+  white-space: pre;
+}
+
+.projectEach{
+  width: 300px;
+}

@@ -3,52 +3,100 @@
 }
 
 body{
-background-image: url("public/styles/wallpaper.png");
+  /*background-image: url("/styles/wallpaper.png");*/
+  background-color: darkslategrey;
+}
+
+
+
+.myInfoBox{
+  display: inline-block;
+  height: 70px;
+  width: 200px;
+}
+
+.myName{
+  color: midnightblue;
+  font-size: 25px;
+  font-family: serif;
+  margin: 0;
+  white-space: pre;
+}
+
+.myTitle{
+  color: cornflowerblue;
+  font-size: 20px;
+  font-family: serif;
+  margin: 0;
+}
+
+.homeLinks{
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  white-space: pre;
 }
 
 .titleBox{
-  background-color: DarkSeaGreen;
-  height: 50px;
+  background-color: grey;
+  border: solid 2px;
+  border-radius: 10px;
+  height: 200px;
   margin: 0;
-  width: 100%;
+  margin-left: 25%;
+  margin-top: 10%;
+  padding: 10px;
+  width: 600px;;
 }
 
 .titleName{
-  font-size: 30px;
+  color: black;
+  font-family: sans-serif;
+  font-size: 50px;
   margin: 0;
-  padding: 10px;
+  margin-top: 40px;
   text-align: center;
 }
 
+.titleDetails{
+  color: black;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+}
+
+.navTopRight{
+    float: right;
+}
+
 .textBio{
+  color: white;
   display: inline-block;
   font-size: 12px;
   width: 30%;
   white-space: pre-wrap;
 }
 
-.bioLink{
-  display: inline-block;
-  height: 20px;
-  margin: 0;
-  width: 80px;
-}
-
 .titleProjects{
-  background-color: DarkSeaGreen;
+  background-color: silver;
+  border: solid 2px;
+  border-radius: 10px;
   font-size: 30px;
   height: 50px;
   margin: 0;
+  margin-left: 20%;
   text-align: center;
-  width: 100%;
+  width: 700px;
 }
 
-.homeLinks{
-  display: inline-block;
-  text-decoration: none;
-  white-space: pre;
+.projectLinks{
+  text-decoration: none; 
 }
 
 .projectEach{
+  color: moccasin;
+  margin-left: 35%;
+  text-decoration: none;
   width: 300px;
 }

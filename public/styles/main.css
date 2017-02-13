@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body{
+background-image: url("public/styles/wallpaper.png");
+}
+
 .titleBox{
   background-color: DarkSeaGreen;
   height: 50px;

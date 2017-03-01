@@ -190,18 +190,15 @@ body{
   background-color: #66CDAA;
   border: black solid 5px;
   border-radius: 10px;
-  margin-left: 33%;
-  height: 300px;
+  margin-left: 23%;
+  height: 3%;
   padding: 5px;
-  width: 250px;
+  width: 50%;
 }
 
-.textBio{
-  color: white;
-  display: inline-block;
-  font-size: 10px;
-  width: 30%;
-  white-space: pre;
+.bioText{
+  color: black;
+  font-size: 18px;
 }
 
 .titleProjects{
@@ -232,6 +229,7 @@ body{
 }
 
 .postsSection{
+  height: auto;
   width: 80%;
 }
 
@@ -240,16 +238,17 @@ body{
   font-size: 25px;
   font-weight: lighter;
   margin-top: 5%;
+  white-space: pre;
 }
 
 .postsText{
-  color: khaki;
-  display: inline-block;
+  color: cornsilk;
+  display: block;
   font-size: 20px;
   font-style: italic;
   font-weight: lighter;
+  margin: 1%;
   word-wrap: break-word;
-  white-space: pre;
 }
 
 .footer{

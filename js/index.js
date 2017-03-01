@@ -13,10 +13,10 @@ render(
     <Router history={hashHistory}>
       <Route component={App}>
         <Route path="/" component={ Home } />
-        <Route path="/aboutMe" component={ aboutMe } />
-        <Route path="/Blog" component={ Blog } />
         <Route path="/Project" component={ Project } />
+        <Route path="/Blog" component={ Blog } />
         <Route path="/Photos" component={ Photos } />
+        <Route path="/aboutMe" component={ aboutMe } />
       </Route>
     </Router>
   ),

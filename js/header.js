@@ -9,13 +9,20 @@ export default React.createClass({
   onClickGitHub() {
     window.open("https://github.com/jeremy2929", '_blank')
   },
+  hoverOnMyImage() {
+    this.refs.myImage.className = "myImageLarge"
+  },
+  hoverOffMyImage() {
+    this.refs.myImage.className = "myImage"
+  },
   render() {
     return (
       <header>
         <nav className="navBar">
             <div className="myInfoBox">
               <article className="myBox">
-                <img className="myImage" src="/styles/jw.jpg"/>
+
+                <img className="myImage" ref="myImage" src="/styles/jw.jpg" onMouseEnter={this.hoverOnMyImage} onMouseLeave={this.hoverOffMyImage}/>
                 <div className="name_Info">
                   <h1 className="myName"> Jeremy Ward</h1>
                   <h2 className = "myContactInfo">     Cell:     210-459-6998</h2>

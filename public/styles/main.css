@@ -17,7 +17,7 @@ body{
 .myInfoBox{
   display: inline-block;
   height: 8%;
-  width: 33%;
+  width: 35%;
 }
 
 
@@ -25,8 +25,32 @@ body{
   border: black solid 3px;
   border-radius: 10px;
   display: inline-block;
-  height: 80px;
-  width: 100px;
+  height: 5em;
+  width: 6em;
+}
+
+/*.myImageLarge{
+
+  display: inline-block;
+  height: 180px;
+  width: 220px;
+}*/
+
+@keyframes example {
+    from {height: 5em;
+          width: 6em;}
+    to {height: 10em;
+          width: 11em;}
+}
+
+/* The element to apply the animation to */
+.myImageLarge {
+  border: black solid 3px;
+  border-radius: 10px;
+  animation-name: example;
+  animation-duration: 2s;
+  height: 10em;
+  width: 11em;
 }
 
 .name_Info{

@@ -6,13 +6,13 @@ export default React.createClass({
     return (
       <section>
         <div>
-          <img src="/styles/1.jpg"/>
-          <img src="/styles/2.jpg"/>
-          <img src="/styles/3.jpg"/>
-          <img src="/styles/4.jpg"/>
-          <img src="/styles/5.jpg"/>
-          <img src="/styles/6.jpg"/>
-          <img src="/styles/7.jpg"/>
+          <img className="photos" src="/styles/1.jpg"/>
+          <img className="photos" src="/styles/2.jpg"/>
+          <img className="photos" src="/styles/3.jpg"/>
+          <img className="photos" src="/styles/4.jpg"/>
+          <img className="photos" src="/styles/5.jpg"/>
+          <img className="photos" src="/styles/6.jpg"/>
+          <img className="photos" src="/styles/7.jpg"/>
         </div>
       </section>
     )

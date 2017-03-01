@@ -4,12 +4,15 @@ import { Link } from 'react-router'
 export default React.createClass({
   render() {
     return (
-      <section>
-        <h1>My blogs</h1>
-        <p> 1.) Classes and IDs inside HTML elements act very differently. IDs are unique and Classes are not. An HTML element can have only one ID, but can have multiple classes. Also, an ID is unique to that element only, and can not be used anywhere else on same page, where Classes can be applied to multiple elements on same page.</p>
-        <p>2.) Resetting vs Normalizing CSS - resetting in CSS wipes out all browser default styling, such as margins, headers and footers. This is useful for starting with a clean slate because different browsers may have different defaults. Normalizing is useful when a full reset is not needed, because it will retain some default styling which will save work to re-create them.</p>
-        <p>3.) Floating an element means the element remains as part of the flow of the page. This will allow text to flow around it like printed words in a book flowing around an inset image. In contrast, elements with absolute positioning are removed from the flow of the page. Floated elements can affect position of other elements; absolute positioned elements will not, regardless if touching. The values of Float are:  Left and Right - float the position of element left or right; None- ensures element will not float; Inherit- the element will inherit the float value of the parent element.</p>
-
+      <section className="postsSection">
+        <h1 className="postsTextTitle"> I enjoy collecting various quotes and sayings as I encounter them:</h1>
+        <text className="postsText">1.  The past is a construct of the mind.  It blinds us and fools us into believing it.  But the heart wants to live in the present.</text>
+        <text className="postsText">2.  Learning is the continuous discovery of your own ignorance.</text>
+        <text className="postsText">3.  Life breaks all of us, but the strong get stronger in the broken places.</text>
+        <text className="postsText">4.  Voluntary change usually only occurs when the pain of remaining the same exceeds the fear of change.</text>
+        <text className="postsText">5.  Money is a tool, not a toy.</text>
+        <text className="postsText">6.  The secret to happiness is someyhing to do, something to hope for, and something to love.</text>
+        <text className="postsText"> 7. If one advances confidently in the direction of his dreams, and endeavors to live the life which he has imagined, he will meet with a success unexpected in common hours.</text>
       </section>
     )
   }

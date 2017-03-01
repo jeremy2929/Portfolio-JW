@@ -3,50 +3,88 @@
 }
 
 body{
-  /*background-image: url("/styles/wallpaper.png");*/
-  background-color: darkslategrey;
+  background-color: cadetblue;
 }
 
+.hidden{
+  display: none;
+}
 
+.myBox{
+  text-decoration: none;
+}
 
 .myInfoBox{
   display: inline-block;
-  height: 70px;
+  height: 8%;
+  width: 33%;
+}
+
+
+.myImage{
+  border: black solid 3px;
+  border-radius: 10px;
+  display: inline-block;
+  height: 80px;
+  width: 100px;
+}
+
+.name_Info{
+  display: inline-block;
+  height: 150px;
+  vertical-align: top;
   width: 200px;
 }
 
 .myName{
-  color: midnightblue;
-  font-size: 25px;
-  font-family: serif;
-  margin: 0;
-  white-space: pre;
-}
-
-.myTitle{
-  color: cornflowerblue;
-  font-size: 20px;
-  font-family: serif;
-  margin: 0;
-}
-
-.homeLinks{
-  color: white;
+  color: darkblue;
   display: inline-block;
+  font-size: 35px;
+  font-family: serif;
+  margin: 0;
   text-decoration: none;
+  vertical-align: top;
   white-space: pre;
+}
+
+.myContactInfo{
+  color: black;
+  /*float: left;*/
+  font-size: 15px;
+  font-family: serif;
+  font-weight: lighter;
+  margin: 0;
+  margin-right: 0;
+  vertical-align: top;
+  white-space: pre;
+  width: 150px;
+}
+
+.titleBoxOuter{
+  background-color: darkslategray;
+  border: solid 2px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 5em;
+  height: 20rem;
+  margin-left: 10%;
+  margin-top: 5%;
+  padding: 1%;
+  text-align: center;
+  width: 80%;
 }
 
 .titleBox{
-  background-color: grey;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,207cca+17,207cca+17,2989d8+26,7db9e8+100 */
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(top, #1e5799 0%, #207cca 17%, #207cca 17%, #2989d8 26%, #7db9e8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #1e5799 0%,#207cca 17%,#207cca 17%,#2989d8 26%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #1e5799 0%,#207cca 17%,#207cca 17%,#2989d8 26%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
   border: solid 2px;
   border-radius: 10px;
-  height: 200px;
+  height: 99%;
   margin: 0;
-  margin-left: 25%;
-  margin-top: 10%;
-  padding: 10px;
-  width: 600px;;
 }
 
 .titleName{
@@ -54,8 +92,90 @@ body{
   font-family: sans-serif;
   font-size: 50px;
   margin: 0;
-  margin-top: 40px;
+  margin-top: 1rem;
   text-align: center;
+  text-shadow: horizontal-offset vertical-offset blur color;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.titleDetailHTML{
+  color: darkorange;
+  display: inline-block;
+  float: left;
+  font-size: 38px;
+  font: Florence;
+  margin-left: 5%;
+  margin-right: 4%;
+}
+
+.titleDetailCSS{
+  color: yellow;
+  display: inline-block;
+  float: left;
+  font-size: 40px;
+  margin-left: 10%;
+  margin-right: 2%;
+  margin-top: 0;
+}
+
+.titleDetailJavaScript{
+  color: white;
+  font-size: 38px;
+  margin-right: 4%;
+  margin-bottom: 0;
+}
+
+.titleDetailREACT{
+  color: blue;
+  float: left;
+  font-size: 40px;
+  display: inline-block;
+  margin-right: 4%;
+  margin-top: 5%;
+}
+
+.titleDetailFireBase{
+  color: red;
+  display: inline-block;
+  font-size: 35px;
+  margin-right: 2%;
+}
+
+.navTopRight{
+    display: inline-flex;
+    float: right;
+    margin-top: 1%;
+}
+
+.blogLink{
+  background-color: lightblue;
+  border-radius: 5px;
+  border: black solid 2px;
+  color: black;
+  font-size: 16px;
+  height: auto;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.gitHubButton{
+  background-color: lightblue;
+  border-radius: 5px;
+  border: black solid 2px;
+  color: black;
+  font-size: 15px;
+  height: auto;
+}
+
+.homeButton{
+  background-color: lightblue;
+  border-radius: 5px;
+  border: black solid 2px;
+  color: black;
+  font-size: 16px;
+  height: auto;
+  padding: 4px;
+  text-decoration: none;
 }
 
 .titleDetails{
@@ -66,21 +186,27 @@ body{
   text-align: center;
 }
 
-.navTopRight{
-    float: right;
+.bioSection{
+  background-color: #66CDAA;
+  border: black solid 5px;
+  border-radius: 10px;
+  margin-left: 33%;
+  height: 300px;
+  padding: 5px;
+  width: 250px;
 }
 
 .textBio{
   color: white;
   display: inline-block;
-  font-size: 12px;
+  font-size: 10px;
   width: 30%;
-  white-space: pre-wrap;
+  white-space: pre;
 }
 
 .titleProjects{
   background-color: silver;
-  border: solid 2px;
+  border: black solid 2px;
   border-radius: 10px;
   font-size: 30px;
   height: 50px;
@@ -90,8 +216,12 @@ body{
   width: 700px;
 }
 
-.projectLinks{
-  text-decoration: none; 
+.projectsDropBox{
+  background-color: lightblue;
+  border: black solid 2px;
+  color: black;
+  font-size: 15px;
+  height: auto;
 }
 
 .projectEach{
@@ -99,4 +229,34 @@ body{
   margin-left: 35%;
   text-decoration: none;
   width: 300px;
+}
+
+.postsSection{
+  width: 80%;
+}
+
+.postsTextTitle{
+  color: darkblue;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-top: 5%;
+}
+
+.postsText{
+  color: khaki;
+  display: inline-block;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: lighter;
+  word-wrap: break-word;
+  white-space: pre;
+}
+
+.footer{
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 20%;
+  margin-top: 15%;
+  white-space: pre;
 }

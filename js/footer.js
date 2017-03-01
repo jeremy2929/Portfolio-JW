@@ -5,7 +5,7 @@ export default React.createClass({
     return (
       <footer>
             <h3></h3>
-            <h3>                                Footer here                                      </h3>
+            <h3 className="footer"></h3>
             <h3></h3>
       </footer>
     )

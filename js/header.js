@@ -2,25 +2,39 @@ import React from 'react'
 import { Link } from 'react-router'
 
 export default React.createClass({
-  onClickAboutMe(){
-    alert("   Front End Developer: An individual defined by a strong and honest work ethic with a natural curiosity for learning and attention to detail who believes worthy achievements only come from dedication and perseverance to reach the ultimate goal...")
+  onDropChange(e) {
+    var path = e.target.value
+    window.open(path, '_blank')
+  },
+  onClickGitHub() {
+    window.open("https://github.com/jeremy2929", '_blank')
   },
   render() {
     return (
       <header>
         <nav className="navBar">
-          <Link to="/">
             <div className="myInfoBox">
-              <h1 className="myName" onClick={ this.onClickAboutMe }>  Jeremy Ward</h1>
-              <p className = "myTitle">Front-end Developer</p>
+              <article className="myBox">
+                <img className="myImage" src="/styles/jw.jpg"/>
+                <div className="name_Info">
+                  <h1 className="myName"> Jeremy Ward</h1>
+                  <h2 className = "myContactInfo">     Cell:     210-459-6998</h2>
+                  <h3 className = "myContactInfo">     Email:  jeremy2929@twc.com</h3>
+                </div>
+              </article>
             </div>
-          </Link>
           <section className="navTopRight">
-            <a href="https://github.com/jeremy2929">
-              <p className="homeLinks">Github Account         </p>
-            </a>
-            <Link to="/project" className="homeLinks">View Projects            </Link>
-            <Link to="/blog" className="homeLinks">View Blogs               </Link>
+            <Link to="/" className="homeButton">Home</Link>
+            <select className="projectsDropBox" onChange={this.onDropChange}>
+                <option  value="Projects">Deployed Projects</option>
+                <option  value="https://spurs-project.herokuapp.com">Spurs Blog Project</option>
+                <option  value="https://tic-tac-toe-jw.herokuapp.com">Tic-Tac-Toe</option>
+                <option value="https://dollartrak.herokuapp.com">DollarTrak Budget App</option>
+            </select>
+            <button className="gitHubButton" onClick={this.onClickGitHub}>GitHub Account</button>
+            <Link to="/blog" className="blogLink">Posts</Link>
+            <Link to="/photos" className="blogLink">Photos</Link>
+            <Link to="/aboutMe" className="blogLink">About Me</Link>
           </section>
         </nav>
       </header>

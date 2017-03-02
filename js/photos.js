@@ -5,15 +5,30 @@ export default React.createClass({
   render() {
     return (
       <section>
+        <h1 className="theIronYardTitle">My experience at  </h1>
+          <a className="theIronYard" href="https://www.theironyard.com/courses.html#front-end-engineering">The Iron Yard:
+          </a>
+
         <div>
+          <img className="imageTIY" src="/styles/TIY.png"/>
+          <img className="imageFEE" src="/styles/FEE.png"/>
+            <p className="caption1">In the beginning...</p>
           <img className="photos" src="/styles/1.jpg"/>
+            <p className="caption1">Holiday Season...</p>
           <img className="photos" src="/styles/2.jpg"/>
+            <p className="caption1">My Birthday...</p>
           <img className="photos" src="/styles/3.jpg"/>
-          <img className="photos" src="/styles/4.jpg"/>
-          <img className="photos" src="/styles/5.jpg"/>
-          <img className="photos" src="/styles/6.jpg"/>
+            <p className="caption1">End of Week 8...</p>
           <img className="photos" src="/styles/7.jpg"/>
+          <img className="photos" src="/styles/4.jpg"/>
+            <p className="caption1">Guest Speakers...</p>
+          <img className="photos" src="/styles/5.jpg"/>
+            <p className="caption1">An exercise in communication...</p>
+          <img className="photos" src="/styles/6.jpg"/>
+            <p className="caption1">An intense instruction session...</p>
+          <img className="photos_instruction" src="/styles/8.jpg"/>
         </div>
+        <Link to="/" className="homeButton homeButton_bottom">Home</Link>
       </section>
     )
   }

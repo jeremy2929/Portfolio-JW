@@ -4,7 +4,9 @@ import { Link } from 'react-router'
 export default React.createClass({
   onDropChange(e) {
     var path = e.target.value
-    window.open(path, '_blank')
+    if (path != "Projects") {
+      window.open(path, '_blank')
+    }
   },
   onClickGitHub() {
     window.open("https://github.com/jeremy2929", '_blank')
@@ -40,7 +42,7 @@ export default React.createClass({
             <button className="gitHubButton" onClick={this.onClickGitHub}>GitHub Account</button>
             <Link to="/blog" className="blogLink">Posts</Link>
             <Link to="/photos" className="blogLink">Photos</Link>
-            <Link to="/aboutMe" className="blogLink">About Me</Link>
+            <Link to="/aboutMe" className="aboutMe">About Me</Link>
           </section>
         </nav>
       </header>

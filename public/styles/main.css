@@ -35,7 +35,6 @@ body{
   height: 4em;
   margin-left: .3em;
   margin-top: .5em;
-  /*box-shadow: horizontal-offset vertical-offset blur color;*/
   box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   width: 7em;
 }
@@ -88,6 +87,82 @@ body{
   white-space: pre;
   width: 150px;
 }
+
+.navTopRight{
+    display: inline-flex;
+    float: right;
+    margin-top: 1%;
+}
+
+.homeButton{
+  background-color: lightblue;
+  border-radius: 5px;
+  border: black solid 2px;
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: black;
+  font-size: 16px;
+  height: auto;
+  margin-right: .3em;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.projectsDropBox{
+  background-color: lightblue;
+  border: black solid 2px;
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: black;
+  font-size: 15px;
+  height: auto;
+  margin-right: .3em;
+}
+
+.projectEach{
+  color: moccasin;
+  margin-left: 35%;
+  text-decoration: none;
+  width: 300px;
+}
+
+.gitHubButton{
+  background-color: lightblue;
+  border-radius: 5px;
+  border: black solid 2px;
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: black;
+  font-size: 15px;
+  height: auto;
+  margin-right: .3em;
+}
+
+
+
+.postsButton{
+  background-color: lightblue;
+  border-radius: 5px;
+  border: black solid 2px;
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: black;
+  font-size: 16px;
+  height: auto;
+  margin-right: .3em;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.aboutMe{
+  background-color: lightblue;
+  border-radius: 5px;
+  border: black solid 2px;
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: black;
+  font-size: 16px;
+  height: auto;
+  margin-right: .3em;
+  padding: 4px;
+  text-decoration: none;
+}
+
 
 .titleBoxOuter{
   background-color: darkslategray;
@@ -170,65 +245,9 @@ body{
   margin-right: 2%;
 }
 
-.navTopRight{
-    display: inline-flex;
-    float: right;
-    margin-top: 1%;
-}
 
-.blogLink{
-  background-color: lightblue;
-  border-radius: 5px;
-  border: black solid 2px;
-  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  color: black;
-  font-size: 16px;
-  height: auto;
-  margin-right: .3em;
-  padding: 4px;
-  text-decoration: none;
-}
 
-.aboutMe{
-  background-color: lightblue;
-  border-radius: 5px;
-  border: black solid 2px;
-  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  color: black;
-  font-size: 16px;
-  height: auto;
-  margin-right: .3em;
-  padding: 4px;
-  text-decoration: none;
-}
 
-.gitHubButton{
-  background-color: lightblue;
-  border-radius: 5px;
-  border: black solid 2px;
-  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  color: black;
-  font-size: 15px;
-  height: auto;
-  margin-right: .3em;
-}
-
-.homeButton{
-  background-color: lightblue;
-  border-radius: 5px;
-  border: black solid 2px;
-  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  color: black;
-  font-size: 16px;
-  height: auto;
-  margin-right: .3em;
-  padding: 4px;
-  text-decoration: none;
-}
-
-.homeButton_bottom{
-  margin-left: 1em;
-}
 
 .titleDetails{
   color: black;
@@ -239,7 +258,8 @@ body{
 }
 
 .bioSection{
-  background-color: #66CDAA;
+  /*background-color: #66CDAA;*/
+  background-color: khaki;
   border: black solid 5px;
   border-radius: 10px;
   margin-left: 23%;
@@ -254,35 +274,6 @@ body{
   font-size: 18px;
 }
 
-.titleProjects{
-  background-color: silver;
-  border: black solid 2px;
-  border-radius: 10px;
-  font-size: 30px;
-  height: 50px;
-  margin: 0;
-  margin-left: 20%;
-  text-align: center;
-  width: 700px;
-}
-
-.projectsDropBox{
-  background-color: lightblue;
-  border: black solid 2px;
-  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  color: black;
-  font-size: 15px;
-  height: auto;
-  margin-right: .3em;
-
-}
-
-.projectEach{
-  color: moccasin;
-  margin-left: 35%;
-  text-decoration: none;
-  width: 300px;
-}
 
 .postsSection{
   height: auto;
@@ -360,11 +351,79 @@ body{
   width: 60%;
 }
 
-.footer{
-  color: white;
-  font-size: 20px;
-  font-weight: lighter;
-  margin-left: 20%;
-  margin-top: 15%;
-  white-space: pre;
+
+.homeButton_bottom{
+  margin-left: 1em;
+}
+
+@media only screen and (max-width: 1500px){
+
+  .myInfoBox{
+    display: inline-block;
+    height: 8%;
+    width: 30%;
+  }
+
+  .homeButton{
+    font-size: 30px;
+    height: auto;
+    width: auto;
+  }
+
+  .navBar{
+    height: 10em;
+    width: 100%;
+  }
+
+  .projectsDropBox{
+    font-size: 30px;
+    height: auto;
+    width: auto;
+  }
+
+  .navTopRight{
+      display: inline-flex;
+      float: left;
+      height: auto;
+      margin-left: 9%;
+      width: auto;
+  }
+
+  .gitHubButton{
+    font-size: 30px;
+    height: auto;
+    margin-right: .3em;
+    width: auto;
+  }
+
+  .postsButton{
+    font-size: 30px;
+    height: auto;
+    margin-right: .3em;
+    padding: 4px;
+    text-decoration: none;
+  }
+
+  .aboutMe{
+    font-size: 30px;
+    height: auto;
+    margin-right: .3em;
+  }
+
+  .myInfoBox{
+    display: inline-block;
+    height: 8%;
+    margin-left: 38%;
+    width: 35%;
+  }
+
+  .titleBoxOuter{
+    height: 40rem;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 1%;
+    text-align: center;
+    width: 80%;
+  }
+
 }

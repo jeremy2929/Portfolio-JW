@@ -40,8 +40,8 @@ export default React.createClass({
                 <option value="https://dollartrak.herokuapp.com">DollarTrak Budget App</option>
             </select>
             <button className="gitHubButton" onClick={this.onClickGitHub}>GitHub Account</button>
-            <Link to="/blog" className="blogLink">Posts</Link>
-            <Link to="/photos" className="blogLink">Photos</Link>
+            <Link to="/blog" className="postsButton">Posts</Link>
+            <Link to="/photos" className="postsButton">Photos</Link>
             <Link to="/aboutMe" className="aboutMe">About Me</Link>
           </section>
         </nav>

@@ -135,8 +135,6 @@ body{
   margin-right: .3em;
 }
 
-
-
 .postsButton{
   background-color: lightblue;
   border-radius: 5px;
@@ -356,48 +354,73 @@ body{
   margin-left: 1em;
 }
 
-@media only screen and (max-width: 1500px){
+/*and (min-width: 200px)*/
+@media screen and (max-width: 980px) {
 
   .myInfoBox{
     display: inline-block;
-    height: 8%;
-    width: 30%;
+    height: 10em;
+    margin-left: 10em;
+    width: 60%;
   }
 
+  .myImage {
+    display: inline-block;
+    height: 10em;
+    margin-left: 3em;
+    margin-top: 1%;
+    width: 13em;
+  }
+
+  .name_Info{
+    display: inline-block;
+    height: 5em;
+    vertical-align: top;
+    width: 200px;
+  }
+
+  .myName{
+    font-size: 55px;
+  }
+
+  .myContactInfo{
+    font-size: 35px;
+  }
+
+
   .homeButton{
-    font-size: 30px;
+    font-size: 35px;
     height: auto;
     width: auto;
   }
 
   .navBar{
-    height: 10em;
+    height: 16em;
     width: 100%;
   }
 
   .projectsDropBox{
-    font-size: 30px;
+    font-size: 35px;
     height: auto;
-    width: auto;
+    width: 5em;
   }
 
   .navTopRight{
       display: inline-flex;
       float: left;
       height: auto;
-      margin-left: 9%;
       width: auto;
   }
 
   .gitHubButton{
-    font-size: 30px;
+    font-size: 35px;
     height: auto;
     margin-right: .3em;
     width: auto;
   }
 
   .postsButton{
-    font-size: 30px;
+    font-size: 35px;
     height: auto;
     margin-right: .3em;
     padding: 4px;
@@ -405,25 +428,13 @@ body{
   }
 
   .aboutMe{
-    font-size: 30px;
+    font-size: 35px;
     height: auto;
     margin-right: .3em;
   }
 
-  .myInfoBox{
-    display: inline-block;
-    height: 8%;
-    margin-left: 38%;
-    width: 35%;
-  }
-
   .titleBoxOuter{
-    height: 40rem;
-    margin-left: 10%;
-    margin-top: 5%;
-    padding: 1%;
-    text-align: center;
-    width: 80%;
+    height: 20rem;
   }
 
 }

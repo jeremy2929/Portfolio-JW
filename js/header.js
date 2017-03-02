@@ -34,7 +34,7 @@ export default React.createClass({
           <section className="navTopRight">
             <Link to="/" className="homeButton">Home</Link>
             <select className="projectsDropBox" onChange={this.onDropChange}>
-                <option  value="Projects">Deployed Projects</option>
+                <option  value="Projects">Projects</option>
                 <option  value="https://spurs-project.herokuapp.com">Spurs Blog Project</option>
                 <option  value="https://tic-tac-toe-jw.herokuapp.com">Tic-Tac-Toe</option>
                 <option value="https://dollartrak.herokuapp.com">DollarTrak Budget App</option>

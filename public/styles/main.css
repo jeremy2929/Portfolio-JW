@@ -279,6 +279,7 @@ body{
   font-weight: lighter;
   margin-top: 5%;
   margin-right: .3em;
+  white-space: pre;
 }
 
 .postsText{
@@ -352,7 +353,7 @@ body{
 @media screen and (max-width: 980px) {
 
   .navBar{
-    height: 40em;
+    height: 20em;
     width: 100%;
   }
 
@@ -387,49 +388,42 @@ body{
   }
 
   .homeButton{
-    font-size: 3em;
-    /*height: auto;*/
-    margin-left: .5em;
-    padding: 1em;
-    /*width: auto;*/
+    font-size: 35px;
+    height: auto;
+    width: auto;
   }
 
   .projectsDropBox{
-    font-size: 3em;
-    /*height: auto;*/
-    padding: .5em;
-    /*width: 3em;*/
+    font-size: 35px;
+    height: auto;
+    width: 5em;
   }
 
   .navTopRight{
-      /*display: inline-flex;*/
+      display: inline-flex;
       float: left;
       height: auto;
-      /*width: auto;*/
+      width: auto;
   }
 
   .gitHubButton{
-    display: block;
-    font-size: 3em;
-    /*height: auto;*/
+    font-size: 35px;
+    height: auto;
     margin-right: .3em;
-    padding: .5em;
-    /*width: auto;*/
+    width: auto;
   }
 
   .postsButton{
-    font-size: 2.188em;
-    /*height: auto;*/
+    font-size: 35px;
+    height: auto;
     margin-right: .3em;
-    padding: .5em;
-    /*padding: 4px;*/
+    padding: 4px;
     text-decoration: none;
   }
 
   .aboutMe{
-    font-size: 2.188em;
-    /*height: auto;*/
-    padding: .5em;
+    font-size: 35px;
+    height: auto;
     margin-right: .3em;
   }
 
@@ -480,6 +474,7 @@ body{
   .postsTextTitle{
     font-size: 45px;
     white-space: none;
+
   }
 
   .bioText{

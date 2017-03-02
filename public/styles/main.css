@@ -243,10 +243,6 @@ body{
   margin-right: 2%;
 }
 
-
-
-
-
 .titleDetails{
   color: black;
   font-family: sans-serif;
@@ -256,7 +252,6 @@ body{
 }
 
 .bioSection{
-  /*background-color: #66CDAA;*/
   background-color: khaki;
   border: black solid 5px;
   border-radius: 10px;
@@ -284,7 +279,6 @@ body{
   font-weight: lighter;
   margin-top: 5%;
   margin-right: .3em;
-  white-space: pre;
 }
 
 .postsText{
@@ -357,6 +351,11 @@ body{
 /*and (min-width: 200px)*/
 @media screen and (max-width: 980px) {
 
+  .navBar{
+    height: 20em;
+    width: 100%;
+  }
+
   .myInfoBox{
     display: inline-block;
     height: 10em;
@@ -376,7 +375,7 @@ body{
     display: inline-block;
     height: 5em;
     vertical-align: top;
-    width: 200px;
+    width: 20%;
   }
 
   .myName{
@@ -387,16 +386,10 @@ body{
     font-size: 35px;
   }
 
-
   .homeButton{
     font-size: 35px;
     height: auto;
     width: auto;
-  }
-
-  .navBar{
-    height: 20em;
-    width: 100%;
   }
 
   .projectsDropBox{
@@ -452,6 +445,8 @@ body{
   .titleDetailCSS{
     font-size: 60px;
     margin: 0;
+    margin-left: 18%;
+    margin-right: 10%;
     margin-top: 5%;
   }
 
@@ -460,18 +455,27 @@ body{
     font-size: 58px;
     margin: 0;
     margin-left: 2%;
-    margin-top: 10%;
+    margin-top: 0%;
   }
 
   .titleDetailREACT{
-    display: block;
     font-size: 60px;
     margin-left: 3%;
-    margin-top: 8%;
+    margin-top: 0%;
   }
 
   .titleDetailFireBase{
     font-size: 55px;
     margin-left: 0;
+    margin-top: 8%;
+  }
+
+  .postsTextTitle{
+    font-size: 45px;
+    white-space: none;
+  }
+
+  .bioText{
+    font-size: 35px;
   }
 }

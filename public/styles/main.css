@@ -395,7 +395,7 @@ body{
   }
 
   .navBar{
-    height: 16em;
+    height: 20em;
     width: 100%;
   }
 
@@ -434,7 +434,44 @@ body{
   }
 
   .titleBoxOuter{
-    height: 20rem;
+    height: 40rem;
   }
 
+  .titleName{
+    font-size: 90px;
+  }
+
+  .titleDetailHTML{
+    font-size: 80%;
+    margin: 0;
+    margin-left: 4%;
+    margin-right: 12%;
+    margin-top: 6%;
+  }
+
+  .titleDetailCSS{
+    font-size: 60px;
+    margin: 0;
+    margin-top: 5%;
+  }
+
+  .titleDetailJavaScript{
+    display: inline-block;
+    font-size: 58px;
+    margin: 0;
+    margin-left: 2%;
+    margin-top: 10%;
+  }
+
+  .titleDetailREACT{
+    display: block;
+    font-size: 60px;
+    margin-left: 3%;
+    margin-top: 8%;
+  }
+
+  .titleDetailFireBase{
+    font-size: 55px;
+    margin-left: 0;
+  }
 }

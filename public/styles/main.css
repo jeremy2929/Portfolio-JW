@@ -388,7 +388,7 @@ body{
   }
 
   .homeButton{
-    font-size: 2.5em;
+    font-size: 2.3em;
     height: 2.5em;
     margin-left: .1em;
     padding: .4em;
@@ -396,7 +396,7 @@ body{
   }
 
   .projectsDropBox{
-    font-size: 2.5em;
+    font-size: 2.3em;
     height: 2.5em;
     width: 5em;
   }
@@ -409,29 +409,27 @@ body{
   }
 
   .gitHubButton{
-    font-size: 35px;
-    font-size: 2.5em;
+    font-size: 2.3em;
     height: auto;
     height: 2.5em;
-    margin-right: .3em;
+    /*margin-right: .3em;*/
     width: auto;
   }
 
   .postsButton{
-    font-size: 35px;
-    font-size: 2.5em;
-    height: auto;
-    margin-right: .3em;
+    font-size: 2.3em;
+    height: 2.5em;
+    margin-left: .1em;
+    padding: .4em;
     /*padding: .3em;*/
     text-decoration: none;
   }
 
   .aboutMe{
-    font-size: 35px;
-    font-size: 2.5em;
-    height: auto;
-    padding: .3em;
-    margin-right: .3em;
+    font-size: 2.3em;
+    height: 2.5em;
+    margin-left: .1em;
+    padding: .4em;
   }
 
   .titleBoxOuter{

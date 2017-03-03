@@ -255,13 +255,13 @@
 
 
 .bioSection{
-  background-color: khaki;
-  background-image: url("/styles/tx.png");
+  background-image: url("/styles/tx.jpg");
   border: black solid 5px;
   border-radius: 10px;
-  height: 80%;
+  height: 43em;
   margin-left: 10%;
-  padding: 12em;
+  margin-top: 2%;
+  padding: 5em;
   width: 80%;
 }
 
@@ -540,6 +540,14 @@
   }
 
   .bioText{
-    font-size: 35px;
+    font-size: 1.8em;
+  }
+
+  .bioSection{
+    height: 40em;
+    margin-left: 1%;
+    margin-top: 2%;
+    padding: 5em;
+    width: 100%;
   }
 }

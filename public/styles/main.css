@@ -475,6 +475,33 @@ body{
     margin-top: 8%;
   }
 
+  .theIronYardTitle{
+    font-size: 3em;
+  }
+
+  .theIronYard{
+    font-size: 3em;
+  }
+
+
+  .caption1{
+  font-size: 2em;
+ }
+
+ .imageTIY{
+   display: inline-flex;
+   height: 8em;
+   vertical-align: top;
+   margin-top: 5%;
+   margin-left: 5%;
+ }
+
+ .imageFEE{
+   height: 12em;
+   margin-left: 3%;
+   width: 75%;
+ }
+
   .postsTextTitle{
     font-size: 45px;
     width: 80%;

@@ -486,6 +486,12 @@ body{
     width: auto;
   }
 
+  .postsText{
+    margin: 1%;
+    margin-top: 2%;
+    word-wrap: break-word;
+  }
+
   .bioText{
     font-size: 35px;
   }

@@ -4,7 +4,8 @@ import { Link } from 'react-router'
 export default React.createClass({
   render() {
     return (
-      <section>
+      <section className="photosPage">
+
         <h1 className="theIronYardTitle">My experience at  </h1>
           <a className="theIronYard" href="https://www.theironyard.com/courses.html#front-end-engineering">The Iron Yard:
           </a>

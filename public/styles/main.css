@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 
-body{
-  background-color: cadetblue;
+.bodyPage{
+  /*background-color: cadetblue;*/
+  background-image: url("/styles/kb.jpg")
 }
 
 .hidden{
@@ -251,6 +252,13 @@ body{
   text-align: center;
 }
 
+.bioPage{
+  /*background-image: url("/styles/js.jpg");*/
+
+  height: 100%;
+  width: 100%;
+}
+
 .bioSection{
   background-color: khaki;
   border: black solid 5px;
@@ -269,7 +277,12 @@ body{
 
 
 .postsSection{
+  background-color: cadetblue;
+  border: solid 2px;
   height: auto;
+  margin-left: 8%;
+  margin-top: 2%;
+  padding: 2%;
   width: 80%;
 }
 
@@ -277,12 +290,12 @@ body{
   color: darkblue;
   font-size: 25px;
   font-weight: lighter;
-  margin-top: 5%;
+  margin-top: 1%;
   margin-right: .3em;
 }
 
 .postsText{
-  color: cornsilk;
+  color: black;
   display: block;
   font-size: 20px;
   font-style: italic;
@@ -292,7 +305,7 @@ body{
 }
 
 .theIronYardTitle{
-  color: black;
+  color: white;
   display: inline-block;
   font-size: 20px;
   font-weight: normal;
@@ -300,7 +313,7 @@ body{
 }
 
 .theIronYard{
-  color: black;
+  color: orchid;
   font-size: 20px;
   font-weight: normal;
 }
@@ -318,9 +331,14 @@ body{
 }
 
 .caption1{
+  color: white;
   display: inline-block;
   margin-top: 2%;
   margin-bottom: 0;
+}
+
+.photosPage{
+    background-color: darkslategray;
 }
 
 .photos{
@@ -346,6 +364,11 @@ body{
 
 .homeButton_bottom{
   margin-left: 1em;
+}
+
+.bioBodyPage{
+  background-image: url("/styles/js.jpg")
+
 }
 
 /*and (min-width: 200px)*/

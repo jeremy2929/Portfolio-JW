@@ -39,10 +39,10 @@ export default React.createClass({
                 <option  value="https://tic-tac-toe-jw.herokuapp.com">Tic-Tac-Toe</option>
                 <option value="https://dollartrak.herokuapp.com">DollarTrak</option>
             </select>
-            <button className="gitHubButton" onClick={this.onClickGitHub}>GitHub Account</button>
+            <button className="gitHubButton" onClick={this.onClickGitHub}>GitHub</button>
             <Link to="/blog" className="postsButton">Posts</Link>
             <Link to="/photos" className="postsButton">Photos</Link>
-            <Link to="/aboutMe" className="aboutMe">About Me</Link>
+            <Link to="/aboutMe" className="aboutMe">Bio</Link>
           </section>
         </nav>
       </header>

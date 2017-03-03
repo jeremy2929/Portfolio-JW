@@ -353,7 +353,7 @@ body{
 @media screen and (max-width: 980px) {
 
   .navBar{
-    height: 20em;
+    height: 16em;
     width: 100%;
   }
 
@@ -390,6 +390,8 @@ body{
   .homeButton{
     font-size: 35px;
     height: auto;
+    margin-left: 4%;
+    padding: .3em;
     width: auto;
   }
 
@@ -417,13 +419,14 @@ body{
     font-size: 35px;
     height: auto;
     margin-right: .3em;
-    padding: 4px;
+    padding: .3em;
     text-decoration: none;
   }
 
   .aboutMe{
     font-size: 35px;
     height: auto;
+    padding: .3em;
     margin-right: .3em;
   }
 

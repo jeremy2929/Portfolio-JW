@@ -5,7 +5,7 @@ export default React.createClass({
   render() {
     return (
       <section className="postsSection">
-        <h1 className="postsTextTitle">   I enjoy collecting various quotes and sayings as I encounter them:</h1>
+        <h1 className="postsTextTitle">   I collect various quotes and sayings as I encounter them:</h1>
         <p className="postsText">1.  The past is a construct of the mind.  It blinds us and fools us into believing it.  But the heart wants to live in the present.</p>
         <p className="postsText">2.  Learning is the continuous discovery of your own ignorance.</p>
         <p className="postsText">3.  Life breaks all of us, but the strong get stronger in the broken places.</p>

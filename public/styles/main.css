@@ -252,27 +252,25 @@
   text-align: center;
 }
 
-.bioPage{
-  /*background-image: url("/styles/js.jpg");*/
 
-  height: 100%;
-  width: 100%;
-}
 
 .bioSection{
   background-color: khaki;
+  background-image: url("/styles/tx.png");
   border: black solid 5px;
   border-radius: 10px;
-  margin-left: 23%;
-  margin-top: 2%;
-  height: 3%;
-  padding: 5px;
-  width: 50%;
+  height: 80%;
+  margin-left: 10%;
+  padding: 12em;
+  width: 80%;
 }
 
 .bioText{
   color: black;
-  font-size: 18px;
+  font-size: 2em;
+  height: 10em;
+  margin-top: 0;
+  width: auto;
 }
 
 
@@ -367,8 +365,8 @@
 }
 
 .bioBodyPage{
-  background-image: url("/styles/js.jpg")
-
+  background-image: url("/styles/js.jpg");
+  /*background-color: grey;*/
 }
 
 /*and (min-width: 200px)*/

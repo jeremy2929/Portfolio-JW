@@ -259,17 +259,26 @@
   border: black solid 5px;
   border-radius: 10px;
   height: 43em;
-  margin-left: 10%;
+  margin-left: 7%;
   margin-top: 2%;
   padding: 5em;
-  width: 80%;
+  width: 82%;
+}
+
+.bioBackground{
+  background-color: lightyellow;
+  border: solid 2px;
+  border-radius: 15px;
+  height: auto;
+  opacity: .85;
+
 }
 
 .bioText{
   color: black;
-  font-size: 2em;
-  height: 10em;
+  font-size: 1.5em;
   margin-top: 0;
+  padding: 1em;
   width: auto;
 }
 
@@ -307,6 +316,7 @@
   display: inline-block;
   font-size: 20px;
   font-weight: normal;
+  margin-left: 1%;
   white-space: pre;
 }
 
@@ -332,6 +342,7 @@
   color: white;
   display: inline-block;
   margin-top: 2%;
+  margin-left: 1%;
   margin-bottom: 0;
 }
 
@@ -362,12 +373,13 @@
 
 .homeButton_bottom{
   margin-left: 1em;
+  margin-top: 2%;
 }
 
-.bioBodyPage{
+/*.bioBodyPage{
   background-image: url("/styles/js.jpg");
   /*background-color: grey;*/
-}
+/*}*/
 
 /*and (min-width: 200px)*/
 @media screen and (max-width: 980px) {
@@ -540,11 +552,12 @@
   }
 
   .bioText{
-    font-size: 1.8em;
+    font-size: 2em;
   }
 
   .bioSection{
-    height: 40em;
+    background-image: url("/styles/tx_large.png");
+    height: 76em;
     margin-left: 1%;
     margin-top: 2%;
     padding: 5em;

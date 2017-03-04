@@ -278,7 +278,8 @@
   color: black;
   font-size: 1.5em;
   margin-top: 0;
-  padding: 1em;
+  margin-bottom: .2;
+  padding: .8em;
   width: auto;
 }
 

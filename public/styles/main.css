@@ -315,33 +315,30 @@
 .theIronYardTitle{
   color: white;
   display: inline-block;
-  font-size: 20px;
+  font-size: 3em;
   font-weight: normal;
-  margin-left: 1%;
+  margin-left: 22%;
   white-space: pre;
 }
 
 .theIronYard{
   color: orchid;
-  font-size: 20px;
+  font-size: 3em;
   font-weight: normal;
 }
 
 .imageTIY{
-  display: inline-flex;
   vertical-align: top;
-  margin-top: 5%;
-}
-
-.imageFEE{
-  height: 55%;
-  margin-left: 1%;
-  width: 78%;
+  float: left;
+  margin-top: 1%;
+  margin-left: 22%;
+  margin-right: 22%;
 }
 
 .caption1{
   color: white;
   display: inline-block;
+  font-size: 2em;
   margin-top: 2%;
   margin-left: 1%;
   margin-bottom: 0;
@@ -511,6 +508,7 @@
 
   .theIronYardTitle{
     font-size: 3em;
+    margin-left: 2em;
   }
 
   .theIronYard{
@@ -524,10 +522,10 @@
 
  .imageTIY{
    display: inline-flex;
-   height: 8em;
+   height: auto;
    vertical-align: top;
    margin-top: 5%;
-   margin-left: 5%;
+   margin-left: 11%;
  }
 
  .imageFEE{

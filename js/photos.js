@@ -9,10 +9,9 @@ export default React.createClass({
         <h1 className="theIronYardTitle">My experience at  </h1>
           <a className="theIronYard" href="https://www.theironyard.com/courses.html#front-end-engineering">The Iron Yard:
           </a>
+          <img className="imageTIY" src="/styles/TIY.jpg"/>
 
         <div>
-          <img className="imageTIY" src="/styles/TIY.png"/>
-          <img className="imageFEE" src="/styles/FEE.png"/>
             <p className="caption1">In the beginning...</p>
           <img className="photos" src="/styles/1.jpg"/>
             <p className="caption1">Holiday Season...</p>

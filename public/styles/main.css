@@ -407,10 +407,10 @@
   border: solid 5px;
   display: flex;
   height: 45%;
-  margin: 1%;
+  margin: 0 auto;
   margin-right: .3em;
   vertical-align: top;
-  width: auto;
+  width: 100%;
 }
 
 .photos_instruction{
@@ -422,7 +422,6 @@
   vertical-align: top;
   width: 60%;
 }
-
 
 .homeButton_bottom{
   margin-left: 1em;
@@ -586,6 +585,11 @@
 
   .caption1{
   font-size: 2em;
+ }
+
+.photos{
+  margin: 0 auto;
+  width: 100%;
  }
 
  .imageTIY{

@@ -584,7 +584,6 @@
     font-size: 3em;
   }
 
-
   .caption1{
   font-size: 2em;
  }
@@ -594,13 +593,17 @@
    height: auto;
    vertical-align: top;
    margin-top: 5%;
-   margin-left: 11%;
+   margin-left: 12%;
  }
 
- .imageFEE{
-   height: 12em;
-   margin-left: 3%;
-   width: 75%;
+ .imageCert{
+   border: black solid 4px;
+   display: block;
+   height: 5%;
+   margin-left: 11em;
+   margin-top: 5em;
+   width: 60%;
+
  }
 
   .postsTextTitle{

@@ -107,16 +107,6 @@
   text-decoration: none;
 }
 
-.projectsDropBox{
-  background-color: lightblue;
-  border: black solid 2px;
-  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  color: black;
-  font-size: 15px;
-  height: auto;
-  margin-right: .3em;
-}
-
 .projectEach{
   color: moccasin;
   margin-left: 35%;
@@ -477,17 +467,11 @@
   }
 
   .homeButton{
-    font-size: 2.6em;
+    font-size: 2.8em;
     height: 2.5em;
-    margin-left: .1em;
-    padding: .4em;
+    margin-bottom: .2em;
+    padding: .6em;
     width: auto;
-  }
-
-  .projectsDropBox{
-    font-size: 2.4em;
-    height: 2.5em;
-    width: 5em;
   }
 
   .navTopRight{
@@ -498,37 +482,38 @@
   }
 
   .gitHubButton{
-    font-size: 2.6em;
+    font-size: 2.8em;
     height: auto;
     height: 2.5em;
+    margin-left: .002em;
     width: auto;
   }
 
   .postsButton{
-    font-size: 2.6em;
+    font-size: 2.8em;
     height: 2.5em;
-    margin-left: .1em;
-    padding: .4em;
+    margin-left: .002em;
+    padding: .6em;
     text-decoration: none;
   }
 
   .photosButton{
-    font-size: 2.6em;
+    font-size: 2.8em;
     height: 2.5em;
-    margin-left: .1em;
-    padding: .4em;
+    margin-left: .002em;
+    padding: .6em;
     text-decoration: none;
   }
 
   .aboutMe{
-    font-size: 2.6em;
+    font-size: 2.8em;
     height: 2.5em;
-    margin-left: .1em;
-    padding: .4em;
+    margin-left: .002em;
+    padding: .6em;
   }
 
   .titleBoxOuter{
-    height: 40rem;
+    height: 49rem;
   }
 
   .titleName{
@@ -570,6 +555,18 @@
     margin-left: 0;
     margin-top: 8%;
   }
+
+  .dollarTrakImage{
+    margin-left: .4em;
+  }
+
+  .spursBlogImage{
+    margin-left: .4em;
+}
+
+.tic-tac-toeImage{
+  margin-left: .4em;
+}
 
   .theIronYardTitle{
     font-size: 3em;

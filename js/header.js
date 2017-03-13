@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router'
 
+
+
 export default React.createClass({
   onDropChange(e) {
     var path = e.target.value
@@ -33,15 +35,10 @@ export default React.createClass({
             </div>
           <section className="navTopRight">
             <Link to="/" className="homeButton">Home</Link>
-            <select className="projectsDropBox" onChange={this.onDropChange}>
-                <option  value="Projects">Projects</option>
-                <option  value="https://spurs-project.herokuapp.com">Spurs Blog</option>
-                <option  value="https://tic-tac-toe-jw.herokuapp.com">Tic-Tac-Toe</option>
-                <option value="https://dollartrak.herokuapp.com">DollarTrak</option>
-            </select>
+
             <button className="gitHubButton" onClick={this.onClickGitHub}>GitHub</button>
             <Link to="/blog" className="postsButton">Posts</Link>
-            <Link to="/photos" className="postsButton">Photos</Link>
+            <Link to="/photos" className="photosButton">Photos</Link>
             <Link to="/aboutMe" className="aboutMe">Bio</Link>
           </section>
         </nav>

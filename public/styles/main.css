@@ -3,7 +3,6 @@
 }
 
 .bodyPage{
-  /*background-color: cadetblue;*/
   background-image: url("/styles/kb.jpg")
 }
 
@@ -149,6 +148,19 @@
   text-decoration: none;
 }
 
+.photosButton{
+  background-color: lightblue;
+  border-radius: 5px;
+  border: black solid 2px;
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: black;
+  font-size: 16px;
+  height: auto;
+  margin-right: .3em;
+  padding: 4px;
+  text-decoration: none;
+}
+
 .aboutMe{
   background-color: lightblue;
   border-radius: 5px;
@@ -169,7 +181,7 @@
   border-radius: 10px;
   display: inline-block;
   font-size: 5em;
-  height: 20rem;
+  height: 30rem;
   margin-left: 10%;
   margin-top: 5%;
   padding: 1%;
@@ -235,6 +247,7 @@
   display: inline-block;
   margin-right: 4%;
   margin-top: 5%;
+  margin-bottom: 0;
 }
 
 .titleDetailFireBase{
@@ -252,6 +265,48 @@
   text-align: center;
 }
 
+.projectsArea{
+  background-color: silver;
+  border: white solid 4px;
+  height: 2.2em;
+  margin-bottom: 0;
+}
+
+.projectsTitle{
+  color: black;
+  float: left;
+  font-size: .5em;
+  margin: 0;
+  margin-left: .2em;
+  margin-top: .2em;
+}
+
+.dollarTrakImage{
+  border: white solid 2px;
+  float: left;
+  height: 1em;
+  margin-top: .6em;
+  margin-left: 1em;
+  width: 1.7em;
+}
+
+.spursBlogImage{
+  border: white solid 2px;
+  float: left;
+  height: 1em;
+  margin-top: .6em;
+  margin-left: 1em;
+  width: 1.5em;
+}
+
+.tic-tac-toeImage{
+  border: black solid 2px;
+  float: left;
+  height: 1em;
+  margin-top: .6em;
+  margin-left: 1em;
+  width: 1em;
+}
 
 
 .bioSection{
@@ -328,11 +383,21 @@
 }
 
 .imageTIY{
-  vertical-align: top;
-  float: left;
+  border: black solid 4px;
   margin-top: 1%;
-  margin-left: 22%;
+  margin-left: 20.8%;
   margin-right: 22%;
+  vertical-align: top;
+}
+
+.imageCert{
+  border: black solid 4px;
+  display: block;
+  height: 5%;
+  margin-left: 14em;
+  margin-top: 5em;
+  width: 60%;
+
 }
 
 .caption1{
@@ -374,12 +439,6 @@
   margin-top: 2%;
 }
 
-/*.bioBodyPage{
-  background-image: url("/styles/js.jpg");
-  /*background-color: grey;*/
-/*}*/
-
-/*and (min-width: 200px)*/
 @media screen and (max-width: 980px) {
 
   .navBar{
@@ -418,7 +477,7 @@
   }
 
   .homeButton{
-    font-size: 2.4em;
+    font-size: 2.6em;
     height: 2.5em;
     margin-left: .1em;
     padding: .4em;
@@ -439,24 +498,30 @@
   }
 
   .gitHubButton{
-    font-size: 2.4em;
+    font-size: 2.6em;
     height: auto;
     height: 2.5em;
-    /*margin-right: .3em;*/
     width: auto;
   }
 
   .postsButton{
-    font-size: 2.4em;
+    font-size: 2.6em;
     height: 2.5em;
     margin-left: .1em;
     padding: .4em;
-    /*padding: .3em;*/
+    text-decoration: none;
+  }
+
+  .photosButton{
+    font-size: 2.6em;
+    height: 2.5em;
+    margin-left: .1em;
+    padding: .4em;
     text-decoration: none;
   }
 
   .aboutMe{
-    font-size: 2.4em;
+    font-size: 2.6em;
     height: 2.5em;
     margin-left: .1em;
     padding: .4em;

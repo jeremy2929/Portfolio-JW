@@ -14,6 +14,9 @@ export default React.createClass({
         <p className="postsText">6.  The secret to happiness is something to do, something to hope for, and something to love.</p>
         <p className="postsText">7. If one advances confidently in the direction of his dreams, and endeavors to live the life which he has imagined, he will meet with a success unexpected in common hours.</p>
         <p className="postsText">8. Willful ignorance is a liberty, but coupled with a strong opinion, it's a mistake.</p>
+        <p className="postsText">9. Use your fear. It can take you to a place where your courage is stored.</p>
+        <p className="postsText">10. If there is something worthy you want, it's not something you can accomplish in one day.  It doesn't matter your pace, and it doesn't matter your strengths or weaknesses, as long as you keep pushing forward, you are achieving something.</p>
+        <p className="postsText">11. There are no limits. There are only plateaus, and you must not stay there.  You must go beyond them.</p> 
       </section>
     )
   }

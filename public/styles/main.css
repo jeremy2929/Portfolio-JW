@@ -432,7 +432,7 @@
 @media screen and (max-width: 980px) {
 
   .navBar{
-    height: 18em;
+    height: 20em;
     width: 100%;
   }
 
@@ -467,7 +467,7 @@
   }
 
   .homeButton{
-    font-size: 2.8em;
+    font-size: 3em;
     height: 2.5em;
     margin-bottom: .2em;
     padding: .6em;
@@ -482,7 +482,7 @@
   }
 
   .gitHubButton{
-    font-size: 2.8em;
+    font-size: 3em;
     height: auto;
     height: 2.5em;
     margin-left: .002em;
@@ -490,7 +490,7 @@
   }
 
   .postsButton{
-    font-size: 2.8em;
+    font-size: 3em;
     height: 2.5em;
     margin-left: .002em;
     padding: .6em;
@@ -498,7 +498,7 @@
   }
 
   .photosButton{
-    font-size: 2.8em;
+    font-size: 3em;
     height: 2.5em;
     margin-left: .002em;
     padding: .6em;
@@ -506,7 +506,7 @@
   }
 
   .aboutMe{
-    font-size: 2.8em;
+    font-size: 3em;
     height: 2.5em;
     margin-left: .002em;
     padding: .6em;
@@ -557,16 +557,22 @@
   }
 
   .dollarTrakImage{
-    margin-left: .4em;
+    margin-left: .3em;
+    height: 1.3em;
+    width: 2em;
   }
 
   .spursBlogImage{
-    margin-left: .4em;
+    margin-left: .3em;
+    height: 1.3em;
+    width: 2em;
 }
 
-.tic-tac-toeImage{
-  margin-left: .4em;
-}
+  .tic-tac-toeImage{
+    margin-left: .3em;
+    height: 1.3em;
+    width: 1.5em;
+  }
 
   .theIronYardTitle{
     font-size: 3em;

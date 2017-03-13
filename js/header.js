@@ -25,7 +25,7 @@ export default React.createClass({
         <nav className="navBar">
             <div className="myInfoBox">
               <article className="myBox">
-                <img className="myImage" ref="myImage" src="/styles/jw.jpg" onMouseEnter={this.hoverOnMyImage} onMouseLeave={this.hoverOffMyImage}/>
+                <img className="myImage" ref="myImage" src="/styles/jw.png" onMouseEnter={this.hoverOnMyImage} onMouseLeave={this.hoverOffMyImage}/>
                 <div className="name_Info">
                   <h1 className="myName"> Jeremy Ward</h1>
                   <h2 className = "myContactInfo"> Cell:     210-459-6998</h2>

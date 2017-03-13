@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router'
 import Projects from './projects'
+import Blog from './blog'
 
 export default React.createClass({
   render() {
@@ -17,8 +18,8 @@ export default React.createClass({
                 <Projects/>
               </div>
           </article>
+          <Blog/>
         </section>
-
     )
   }
 })

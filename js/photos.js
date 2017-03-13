@@ -28,12 +28,11 @@ export default React.createClass({
           <img className="photos" src="/styles/6.jpg"/>
             <p className="caption1">An intense instruction session...</p>
           <img className="photos" src="/styles/8.jpg"/>
-            <Link to="/" className="homeButton homeButton_bottom">Home</Link>
         </div>
-        <div>
+        <div className="photosFooter">
+          <Link to="/" className="homeButton homeButton_bottom">Home</Link>
         </div>
       </section>
-
     )
   }
 })

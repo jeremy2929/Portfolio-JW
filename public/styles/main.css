@@ -374,20 +374,20 @@
 
 .imageTIY{
   border: black solid 4px;
+  display: block;
   margin-top: 1%;
-  margin-left: 20.8%;
-  margin-right: 22%;
-  vertical-align: top;
+  margin: 0 auto;
+  /*vertical-align: top;*/
+  width: 60%;
 }
 
 .imageCert{
   border: black solid 4px;
   display: block;
   height: 5%;
-  margin-left: 14em;
+  margin: 0 auto;
   margin-top: 5em;
   width: 60%;
-
 }
 
 .caption1{
@@ -400,7 +400,9 @@
 }
 
 .photosPage{
-    background-color: darkslategray;
+  background-color: darkslategray;
+  border: solid 5px;
+  height: auto;
 }
 
 .photos{
@@ -408,9 +410,8 @@
   display: flex;
   height: 45%;
   margin: 0 auto;
-  margin-right: .3em;
   vertical-align: top;
-  width: 100%;
+  width: 60%;
 }
 
 .photos_instruction{
@@ -423,9 +424,14 @@
   width: 60%;
 }
 
+.photosFooter{
+  padding-bottom: 1em;
+}
+
 .homeButton_bottom{
+  font-size: 2em;
   margin-left: 1em;
-  margin-top: 2%;
+  padding-bottom: 5px;
 }
 
 @media screen and (max-width: 980px) {
@@ -589,7 +595,7 @@
 
 .photos{
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
  }
 
  .imageTIY{

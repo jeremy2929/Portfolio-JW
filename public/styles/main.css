@@ -441,6 +441,10 @@
 
 @media screen and (max-width: 980px) {
 
+  .bodyPage{
+    background-image: url("/styles/kb_large.jpg")
+  }
+
   .navBar{
     height: 20em;
     width: 100%;

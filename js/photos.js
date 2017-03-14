@@ -5,13 +5,11 @@ export default React.createClass({
   render() {
     return (
       <section className="photosPage">
-
         <h1 className="theIronYardTitle">My experience at  </h1>
-          <a className="theIronYard" href="https://www.theironyard.com/courses.html#front-end-engineering">The Iron Yard:
-          </a>
-          <img className="imageTIY" src="/styles/TIY.jpg"/>
-          <img className="imageCert" src="/styles/cert.png"/>
-
+        <a className="theIronYard" href="https://www.theironyard.com/courses.html#front-end-engineering">The Iron Yard:
+        </a>
+        <img className="imageTIY" src="/styles/TIY.jpg"/>
+        <img className="imageCert" src="/styles/cert.png"/>
         <div>
             <p className="caption1">In the beginning...</p>
           <img className="photos" src="/styles/1.jpg"/>

@@ -60,9 +60,9 @@
 
 .name_Info{
   display: inline-block;
-  height: 150px;
+  height: auto;
   vertical-align: top;
-  width: 200px;
+  width: 100%;
 }
 
 .myName{
@@ -445,7 +445,12 @@
     display: inline-block;
     height: 10em;
     margin-left: 10em;
-    width: 60%;
+    width: 70%;
+  }
+
+  .myContactInfo{
+    font-size: 2em;
+    width: 100%;
   }
 
   .myImage {
@@ -467,8 +472,9 @@
     font-size: 55px;
   }
 
-  .myContntactInfo{
+  .myContactInfo{
     font-size: 35px;
+    width: 8em;
   }
 
   .homeButton{
@@ -519,7 +525,7 @@
   }
 
   .titleBoxOuter{
-    height: 50rem;
+    height: 48rem;
   }
 
   .titleName{
@@ -554,6 +560,10 @@
     font-size: 60px;
     margin-left: 3%;
     margin-top: 0%;
+  }
+
+  .projectsArea{
+    vertical-align: bottom;
   }
 
   .titleDetailFireBase{

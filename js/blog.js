@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router'
 
 export default React.createClass({
+  scrollUp(){
+    window.scroll(0, 0)
+  },
   render() {
     return (
       <section className="postsSection">
@@ -16,7 +19,8 @@ export default React.createClass({
         <p className="postsText">8. Willful ignorance is a liberty, but coupled with a strong opinion, it's a mistake.</p>
         <p className="postsText">9. Use your fear. It can take you to a place where your courage is stored.</p>
         <p className="postsText">10. If there is something worthy you want, it's not something you can accomplish in one day.  It doesn't matter your pace, and it doesn't matter your strengths or weaknesses, as long as you keep pushing forward, you are achieving something.</p>
-        <p className="postsText">11. There are no limits. There are only plateaus, and you must not stay there.  You must go beyond them.</p> 
+        <p className="postsText">11. There are no limits. There are only plateaus, and you must not stay there.  You must go beyond them.</p>
+        <button className="topButton" onClick={this.scrollUp}>Top</button>
       </section>
     )
   }

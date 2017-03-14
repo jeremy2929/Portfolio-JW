@@ -358,6 +358,10 @@
   word-wrap: break-word;
 }
 
+.topButton{
+  display: none;
+}
+
 .theIronYardTitle{
   color: white;
   display: inline-block;
@@ -581,7 +585,7 @@
     margin-left: .3em;
     height: 1.3em;
     width: 2em;
-}
+  }
 
   .tic-tac-toeImage{
     margin-left: .3em;
@@ -599,33 +603,32 @@
   }
 
   .caption1{
-  font-size: 3em;
-  margin-left: 2em;
- }
+    font-size: 3em;
+    margin-left: 2em;
+  }
 
-.photos{
-  margin: 0 auto;
-  width: 80%;
- }
+  .photos{
+    margin: 0 auto;
+    width: 80%;
+  }
 
- .imageTIY{
-   display: block;
-   height: auto;
-   vertical-align: top;
-   margin-top: 5%;
-   margin: 0 auto;
-   width: 60%
- }
+  .imageTIY{
+    display: block;
+    height: auto;
+    vertical-align: top;
+    margin-top: 5%;
+    margin: 0 auto;
+    width: 60%
+  }
 
- .imageCert{
-   border: black solid 4px;
-   display: block;
-   height: 5%;
-   margin: 0 auto;
-   margin-top: 5em;
-   width: 60%;
-
- }
+  .imageCert{
+    border: black solid 4px;
+    display: block;
+    height: 5%;
+    margin: 0 auto;
+    margin-top: 5em;
+    width: 60%;
+  }
 
   .postsTextTitle{
     font-size: 45px;
@@ -641,6 +644,18 @@
     margin: 1%;
     margin-top: 2%;
     word-wrap: break-word;
+  }
+
+  .topButton{
+    background-color: lightblue;
+    border-radius: 5px;
+    border: black solid 2px;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    color: black;
+    display: inline-block;
+    font-size: 15px;
+    height: auto;
+    margin-right: .3em;
   }
 
   .bioText{

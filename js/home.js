@@ -8,7 +8,7 @@ export default React.createClass({
     return (
         <section className="titleBoxOuter">
           <article className="titleBox">
-            <h1 className="titleName">                      Front End Developer</h1>
+            <h1 className="titleName">Jeremy Ward</h1>
               <div>
                 <p className="titleDetailHTML">HTML</p>
                 <p className="titleDetailCSS">CSS</p>

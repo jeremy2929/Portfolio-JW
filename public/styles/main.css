@@ -653,9 +653,10 @@
     box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     color: black;
     display: inline-block;
-    font-size: 15px;
+    font-size: 3em;
     height: auto;
     margin-right: .3em;
+    width: auto;
   }
 
   .bioText{

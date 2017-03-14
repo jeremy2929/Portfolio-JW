@@ -448,11 +448,6 @@
     width: 70%;
   }
 
-  .myContactInfo{
-    font-size: 2em;
-    width: 100%;
-  }
-
   .myImage {
     display: inline-block;
     height: 10em;
@@ -465,15 +460,19 @@
     display: inline-block;
     height: 5em;
     vertical-align: top;
-    width: 13em;
+    width: 10em;
   }
 
-  .myName{
+  .myBox{
+    text-decoration: none;
+    width: 30em;
+  }
+
+  /*.myName{
     font-size: 55px;
-  }
-
+  }*/
   .myContactInfo{
-    font-size: 35px;
+    font-size: 2em;
     width: 8em;
   }
 
@@ -525,7 +524,7 @@
   }
 
   .titleBoxOuter{
-    height: 48rem;
+    height: 43rem;
   }
 
   .titleName{
@@ -562,9 +561,9 @@
     margin-top: 0%;
   }
 
-  .projectsArea{
+  /*.projectsArea{
     vertical-align: bottom;
-  }
+  }*/
 
   .titleDetailFireBase{
     font-size: 55px;

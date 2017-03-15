@@ -27,9 +27,6 @@ export default React.createClass({
             <p className="caption1">An intense instruction session...</p>
           <img className="photos" src="/styles/8.jpg"/>
         </div>
-        <div className="photosFooter">
-          <Link to="/" className="homeButton homeButton_bottom">Home</Link>
-        </div>
       </section>
     )
   }

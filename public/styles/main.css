@@ -11,11 +11,23 @@
 }
 
 .navBar{
+  background-color: white;
+ border: solid 4px #3F51B5;
+ border-radius: 5px;
+ box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+ color: #3F51B5;
+ height: 5em;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ z-index: 1;
+ /*
   background-color: lightgrey;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   border-radius: 5px;
   height: 5em;
-  width: 100%;
+  width: 100%;*/
 }
 
 .myBox{
@@ -34,7 +46,7 @@
   display: inline-block;
   height: 4em;
   margin-left: .3em;
-  margin-top: .5em;
+  margin-top: .2em;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   width: 5em;
 }
@@ -174,7 +186,7 @@
   font-size: 5em;
   height: 30rem;
   margin-left: 10%;
-  margin-top: 5%;
+  margin-top: 10%;
   padding: 1%;
   text-align: center;
   width: 80%;
@@ -299,27 +311,6 @@
   width: 1em;
 }
 
-
-.bioSection{
-  background-image: url("/styles/tx.jpg");
-  border: black solid 5px;
-  border-radius: 10px;
-  height: 43em;
-  margin-left: 7%;
-  margin-top: 2%;
-  padding: 5em;
-  width: 82%;
-}
-
-.bioBackground{
-  background-color: lightyellow;
-  border: solid 2px;
-  border-radius: 15px;
-  height: auto;
-  opacity: .85;
-
-}
-
 .bioText{
   color: black;
   font-size: 1.5em;
@@ -330,13 +321,12 @@
   width: auto;
 }
 
-
 .postsSection{
   background-color: cadetblue;
   border: solid 2px;
   height: auto;
   margin-left: 8%;
-  margin-top: 2%;
+  margin-top: 10%;
   padding: 2%;
   width: 80%;
 }
@@ -369,6 +359,7 @@
   font-size: 3em;
   font-weight: normal;
   margin-left: 22%;
+  margin-top: 2em;
   white-space: pre;
 }
 
@@ -400,7 +391,7 @@
   display: inline-block;
   font-size: 2em;
   margin-top: 2%;
-  margin-left: 7em;
+  margin-left: 8em;
   margin-bottom: 0;
 }
 
@@ -438,6 +429,27 @@
   margin-left: 1em;
   padding-bottom: 5px;
 }
+
+.bioSection{
+  background-image: url("/styles/tx.jpg");
+  border: black solid 5px;
+  border-radius: 10px;
+  height: 43em;
+  margin-left: 7%;
+  margin-top: 2%;
+  padding: 5em;
+  width: 82%;
+}
+
+.bioBackground{
+  background-color: lightyellow;
+  border: solid 2px;
+  border-radius: 15px;
+  height: auto;
+  opacity: .85;
+
+}
+
 
 @media screen and (max-width: 980px) {
 

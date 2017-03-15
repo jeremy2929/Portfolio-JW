@@ -670,11 +670,12 @@
     border: black solid 2px;
     box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     color: black;
-    display: inline-block;
+    display: block;
     font-size: 3em;
     height: auto;
-    margin-right: .3em;
-    width: auto;
+    margin: 0 auto;
+    padding: .5em;
+    width: 8em;
   }
 
   .bioText{

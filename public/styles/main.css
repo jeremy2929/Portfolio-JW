@@ -333,7 +333,7 @@
 
 .postsTextTitle{
   color: darkblue;
-  font-size: 25px;
+  font-size: 2em;
   font-weight: lighter;
   margin-top: 1%;
   margin-right: .3em;
@@ -342,7 +342,7 @@
 .postsText{
   color: black;
   display: block;
-  font-size: 20px;
+  font-size: 1em;
   font-style: italic;
   font-weight: lighter;
   margin: 1%;
@@ -399,6 +399,7 @@
   background-color: darkslategray;
   border: solid 5px;
   height: auto;
+  padding-bottom: 2em;
 }
 
 .photos{
@@ -491,9 +492,6 @@
     width: 30em;
   }
 
-  /*.myName{
-    font-size: 55px;
-  }*/
   .myContactInfo{
     font-size: 2em;
     width: 10em;
@@ -647,14 +645,14 @@
     width: 60%;
   }
 
-  .postsTextTitle{
-    font-size: 45px;
-    width: 80%;
-  }
-
   .postsSection{
     height: auto;
     margin-top: 21em;
+    width: 80%;
+  }
+
+  .postsTextTitle{
+    font-size: 3em;
     width: 80%;
   }
 

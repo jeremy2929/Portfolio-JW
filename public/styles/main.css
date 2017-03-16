@@ -166,7 +166,7 @@
 }
 
 .tic-tac-toeImageCube{
-  border: white solid 2px;
+  border: black solid 2px;
   float: left;
   height: 2.6em;
   margin-top: .2em;
@@ -197,7 +197,7 @@
 }
 
 .spursBlogImageCube{
-  border: grey solid 2px;
+  border: white solid 2px;
   float: left;
   height: 2.6em;
   margin-top: .2em;
@@ -884,7 +884,7 @@
 
   .projectTitle{
     font-size: .8em;
-    width: 5em;
+    width: 4.8em;
   }
 
   .projectsArea{

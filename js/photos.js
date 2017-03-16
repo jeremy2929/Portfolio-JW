@@ -19,13 +19,14 @@ export default React.createClass({
           <img className="photos" src="/styles/3.jpg"/>
             <p className="caption1">End of Week 8...</p>
           <img className="photos" src="/styles/7.jpg"/>
-          <img className="photos" src="/styles/4.jpg"/>
             <p className="caption1">Guest Speakers...</p>
           <img className="photos" src="/styles/5.jpg"/>
             <p className="caption1">An exercise in communication...</p>
           <img className="photos" src="/styles/6.jpg"/>
             <p className="caption1">An intense instruction session...</p>
           <img className="photos" src="/styles/8.jpg"/>
+            <p className="caption1">Demo Day..</p>
+          <img className="photos" src="/styles/10.jpg"/>
             <p className="caption1">Graduation!</p>
           <img className="photos" src="/styles/9.jpg"/>
         </div>

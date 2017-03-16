@@ -6,7 +6,7 @@ export default React.createClass({
     return (
       <section className="photosPage">
         <h1 className="theIronYardTitle">My experience at  </h1>
-        <a className="theIronYard" href="https://www.theironyard.com/courses.html#front-end-engineering">The Iron Yard:
+        <a className="theIronYard" href="https://www.theironyard.com/">The Iron Yard:
         </a>
         <img className="imageTIY" src="/styles/TIY.jpg"/>
         <img className="imageCert" src="/styles/cert.png"/>

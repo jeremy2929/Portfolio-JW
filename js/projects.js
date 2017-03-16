@@ -24,7 +24,7 @@ export default React.createClass({
                  <img className="dollarTrakImageCube" src="styles/DollarTrak.png" onClick={this.dollarTak}/>
                </div>
                <div className="back">
-                 <p className="textFront">More To Come</p>
+                 <p className="textBack">More To Come</p>
                </div>
                <div className="top"></div>
                <div className="bottom"></div>

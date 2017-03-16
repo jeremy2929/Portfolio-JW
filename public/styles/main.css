@@ -42,7 +42,7 @@
   animation-name: slideback;
 }
 
-@keyframes slidein {
+/*@keyframes slidein {
   from {
     perspective: 100px;
   	perspective-origin: 1% 400px;
@@ -51,23 +51,23 @@
     perspective: 100px;
   	perspective-origin: 99% 400px;
   }
-}
+}*/
 
 @keyframes slideback {
   from {
     perspective: 20em;
-    perspective-origin: 10% .1em;
+    perspective-origin: 50% .01em;
   }
   to {
     perspective: 20em;
-    perspective-origin: 10% .1em;
+    perspective-origin: 50% .01em;
   }
 }
 
 .projectTitle{
   background-color: white;
   border: black solid .1em;
-  font-size: .7em;
+  font-size: .9em;
   margin-top: 1em;
   margin: 0 auto;
   width: 4em;
@@ -75,16 +75,16 @@
 
 .cube {
 	position: relative;
-  margin-left: 4.5em;
+  margin-left: 4em;
   margin-top: .8em;
-	width: 200px;
+	width: 300px;
 	transform-style: preserve-3d;
 }
 
 .cube div {
 	position: absolute;
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 }
 
 
@@ -127,7 +127,8 @@
 
 .back {
   background-color: lightblue;
-	transform: translateZ(-100px) rotateY(180deg);
+  border: solid 2px;
+	transform: translateZ(-150px) rotateY(180deg);
   background: -moz-linear-gradient(90deg, rgba(15,128,64,1) 0%, rgba(0,255,255,1) 100%); /* ff3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,255,255,1)), color-stop(100%, rgba(15,128,64,1))); /* safari4+,chrome */
   background: -webkit-linear-gradient(90deg, rgba(15,128,64,1) 0%, rgba(0,255,255,1) 100%); /* safari5.1+,chrome10+ */
@@ -138,14 +139,14 @@
 }
 
 .textBack{
-  color: white;
-  margin-top: 5em;
-  text-align: center;
+  color: black;
+  margin-top: .7em;
 }
 
 .right {
   background-color: khaki;
-	transform: rotateY(-270deg) translateX(100px);
+  border: solid 2px;
+	transform: rotateY(-270deg) translateX(150px);
 	transform-origin: top right;
 
   background: -moz-linear-gradient(270deg, rgba(255,28,77,1) 0%, rgba(255,28,77,1) 1%, rgba(128,15,56,1) 100%); /* ff3.6+ */
@@ -167,15 +168,16 @@
 .tic-tac-toeImageCube{
   border: white solid 2px;
   float: left;
-  height: 1.3em;
+  height: 2.6em;
   margin-top: .2em;
-  margin-left: .4em;
-  width: 1.5em;
+  margin-left: .6em;
+  width: 2.5em;
 }
 
 .left {
   background-color: lightgreen;
-	transform: rotateY(270deg) translateX(-100px);
+  border: solid 2px;
+	transform: rotateY(270deg) translateX(-150px);
 	transform-origin: center left;
 
   background: -moz-linear-gradient(89deg, rgba(84,133,255,1) 45%, rgba(47,130,199,1) 69%, rgba(0,128,128,1) 100%); /* ff3.6+ */
@@ -197,27 +199,29 @@
 .spursBlogImageCube{
   border: white solid 2px;
   float: left;
-  height: 1.3em;
+  height: 2.6em;
   margin-top: .2em;
-  margin-left: .4em;
-  width: 1.7em;
+  margin-left: .2em;
+  width: 3.4em;
 }
 
 .top {
   background-color: lightgrey;
-	transform: rotateX(-90deg) translateY(-100px);
+  border: solid 2px;
+	transform: rotateX(-90deg) translateY(-150px);
 	transform-origin: top center;
 }
 
 .bottom {
   background-color: lightgrey;
-	transform: rotateX(90deg) translateY(100px);
+  border: solid 2px;
+	transform: rotateX(90deg) translateY(150px);
 	transform-origin: bottom center;
 }
 
 .front {
-  background-color: teal;
-	transform: translateZ(100px);
+	transform: translateZ(150px);
+  border: solid 2px;
 
   background: -moz-linear-gradient(270deg, rgba(208,255,201,1) 0%, rgba(208,255,201,1) 1%, rgba(0,255,0,1) 99%, rgba(0,255,0,1) 100%); /* ff3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(208,255,201,1)), color-stop(1%, rgba(208,255,201,1)), color-stop(99%, rgba(0,255,0,1)), color-stop(100%, rgba(0,255,0,1))); /* safari4+,chrome */
@@ -241,10 +245,10 @@
 .dollarTrakImageCube{
   border: white solid 2px;
   float: left;
-  height: 1.3em;
+  height: 2.6em;
   margin-top: .2em;
-  margin-left: .4em;
-  width: 1.7em;
+  margin-left: .2em;
+  width: 3.4em;
 }
 
 @keyframes spin {
@@ -267,20 +271,20 @@
 
 .cube-wrap.vertical .cube {
 	margin: 0 auto; /* keeps the cube centered */
-	transform-origin: 0 100px;
+	transform-origin: 0 150px;
 	animation: spin-vertical 5s infinite linear;
 }
 
 .cube-wrap.vertical .top {
-	transform: rotateX(-270deg) translateY(-100px);
+	transform: rotateX(-270deg) translateY(-150px);
 }
 
 .cube-wrap.vertical .back {
-	transform: translateZ(-100px) rotateX(180deg);
+	transform: translateZ(-150px) rotateX(180deg);
 }
 
 .cube-wrap.vertical .bottom {
-	transform: rotateX(-90deg) translateY(100px);
+	transform: rotateX(-90deg) translateY(150px);
 }
 
 /*.cube {
@@ -441,7 +445,7 @@
   border-radius: 10px;
   display: inline-block;
   font-size: 5em;
-  height: 45rem;
+  height: 55rem;
   margin-left: 10%;
   margin-top: 10%;
   padding: 1%;
@@ -526,22 +530,30 @@
 }
 
 .projectsArea{
-  background-color: silver;
-  border: white solid 4px;
-  height: 5.2em;
+  border: grey solid 6px;
+  height: 7.1em;
   margin-bottom: 0;
+  width: 100%;
+
+  background: -moz-linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(192,192,192,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(192,192,192,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(192,192,192,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(192,192,192,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(192,192,192,1) 100%); /* ie10+ */
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(192,192,192,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c0c0c0',GradientType=0 ); /* ie6-9 */
 }
 
 .projectsTitle{
   color: black;
   float: left;
-  font-size: .5em;
+  font-size: .2em;
   margin: 0;
   margin-left: .2em;
   margin-top: .2em;
 }
 
-.dollarTrakImage{
+/*.dollarTrakImage{
   border: white solid 2px;
   float: left;
   height: 1em;
@@ -566,7 +578,7 @@
   margin-top: .6em;
   margin-left: 1em;
   width: 1em;
-}
+}*/
 
 .bioText{
   color: black;
@@ -802,7 +814,7 @@
   }
 
   .titleBoxOuter{
-    height: 59.4rem;
+    height: 68rem;
     margin-top: 4em;
   }
 
@@ -854,8 +866,19 @@
   	transform-style: preserve-3d;
   }
 
+  .textFront{
+    font-size: .3em;
+  }
 
-  .dollarTrakImage{
+  .textRight{
+    font-size: .3em;
+  }
+
+  .textLeft{
+    font-size: .3em;
+  }
+
+  /*.dollarTrakImage{
     margin-left: .3em;
     height: 1.3em;
     width: 2em;
@@ -871,7 +894,7 @@
     margin-left: .3em;
     height: 1.3em;
     width: 1.5em;
-  }
+  }*/
 
   .theIronYardTitle{
     font-size: 3em;

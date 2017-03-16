@@ -197,7 +197,7 @@
 }
 
 .spursBlogImageCube{
-  border: white solid 2px;
+  border: grey solid 2px;
   float: left;
   height: 2.6em;
   margin-top: .2em;
@@ -243,7 +243,7 @@
 }
 
 .dollarTrakImageCube{
-  border: white solid 2px;
+  border: grey solid 2px;
   float: left;
   height: 2.6em;
   margin-top: .2em;
@@ -884,7 +884,7 @@
 
   .projectTitle{
     font-size: .8em;
-    width: 3.8em;
+    width: 4em;
   }
 
   .projectsArea{

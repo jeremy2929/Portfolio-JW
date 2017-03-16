@@ -879,15 +879,15 @@
   }
 
   .textBack{
-    font-size: 1em;
+    font-size: .7em;
   }
 
   .projectTitle{
-    font-size: .8em;
+    font-size: .6em;
   }
 
   .projectsArea{
-    height: 7em;
+    height: 6.9em;
   }
 
   /*.dollarTrakImage{

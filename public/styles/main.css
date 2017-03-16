@@ -883,8 +883,11 @@
   }
 
   .projectTitle{
-    font-size: 1em;
-    
+    font-size: .8em;
+  }
+
+  .projectsArea{
+    height: 7em;
   }
 
   /*.dollarTrakImage{

@@ -867,15 +867,24 @@
   }
 
   .textFront{
-    font-size: .3em;
+    font-size: .6em;
   }
 
   .textRight{
-    font-size: .3em;
+    font-size: .6em;
   }
 
   .textLeft{
-    font-size: .3em;
+    font-size: .6em;
+  }
+
+  .textBack{
+    font-size: 1em;
+  }
+
+  .projectTitle{
+    font-size: 1em;
+    
   }
 
   /*.dollarTrakImage{

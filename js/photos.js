@@ -26,6 +26,8 @@ export default React.createClass({
           <img className="photos" src="/styles/6.jpg"/>
             <p className="caption1">An intense instruction session...</p>
           <img className="photos" src="/styles/8.jpg"/>
+            <p className="caption1">Graduation!</p>
+          <img className="photos" src="/styles/9.jpg"/>
         </div>
       </section>
     )

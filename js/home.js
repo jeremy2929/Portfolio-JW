@@ -18,6 +18,7 @@ export default React.createClass({
                 <Projects/>
               </div>
           </article>
+        
         </section>
     )
   }

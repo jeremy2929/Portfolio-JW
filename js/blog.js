@@ -1,9 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router'
-
+var r = 500
+var rotate = {}
 export default React.createClass({
   scrollUp(){
     window.scroll(0, 0)
+  },
+  rotateCube(){
+    console.log(r);
+    r = r + 10
+    if (r > 900){
+      r = 500
+    }
+    rotate = {
+      perspective: r.toString() + "px"
+    }
   },
   render() {
     return (
@@ -22,7 +33,7 @@ export default React.createClass({
           <li className="postsText">11. There are no limits. There are only plateaus, and you must not stay there.  You must go beyond them.</li>
         </ol>
         <button className="topButton" onClick={this.scrollUp}>Top of Page</button>
-      </section>
+     </section>
     )
   }
 })

@@ -14,10 +14,32 @@ export default React.createClass({
   render() {
     return (
       <section className="projectsArea">
-          <h1 className="projectsTitle">Projects:</h1>
-          <img className="dollarTrakImage" src="styles/DollarTrak.png" onClick={this.dollarTak}/>
-          <img className="spursBlogImage" src="styles/SpursBlog.png" onClick={this.spursBlog}/>
-          <img className="tic-tac-toeImage" src="styles/tic-tac-toe.png" onClick={this.tic_tac_toe}/>
+        <article className="cubeArea">
+          <div className="wrap"  >
+            <div className="cubeOut">
+           <div className="cube">
+             <h1 className="projectTitle">Projects</h1>
+               <div className="front">
+                 <p className="textFront">DollarTrak</p>
+                 <img className="dollarTrakImageCube" src="styles/DollarTrak.png" onClick={this.dollarTak}/>
+               </div>
+               <div className="back">
+                 <p className="textFront">More To Come</p>
+               </div>
+               <div className="top"></div>
+               <div className="bottom"></div>
+               <div className="left">
+                 <p className="textLeft">Spurs Blog</p>
+                <img className="spursBlogImageCube" src="styles/SpursBlog.png" onClick={this.spursBlog}/>
+                </div>
+               <div className="right">
+                 <p className="textLeft">Tic-Tac-Toe</p>
+                 <img className="tic-tac-toeImageCube" src="styles/tic-tac-toe.png" onClick={this.tic_tac_toe}/>
+               </div>
+           </div>
+         </div>
+         </div>
+        </article>
       </section>
     )
   }

@@ -30,10 +30,12 @@
 }
 
 .wrap {
+  margin: 0 auto;
+  margin-left: .3em;
   margin-top: .3em;
+  width: 100%;
 	perspective: 800px;
 	perspective-origin: 70% 20px;
-
 }
 
 .projectTitle {
@@ -44,8 +46,28 @@
   height: 1.5em;
   margin-top: 0em;
   margin: 0 auto;
+  margin-bottom: .1em;
   width: 4em;
 }
+
+.cube-wrap.vertical .cube {
+	margin: 0 auto; /* keeps the cube centered */
+	transform-origin: 0 150px;
+	animation: spin-vertical 5s infinite linear;
+}
+
+.cube-wrap.vertical .top {
+	transform: rotateX(-270deg) translateY(-150px);
+}
+
+.cube-wrap.vertical .back {
+	transform: translateZ(-150px) rotateX(180deg);
+}
+
+.cube-wrap.vertical .bottom {
+	transform: rotateX(-90deg) translateY(150px);
+}
+
 
 .cube {
 	position: relative;
@@ -526,7 +548,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCFCFC', end
   font-weight: lighter;
   margin-top: 1%;
   margin-right: .3em;
-  text-indent: 1em;
+  text-indent: 2em;
 }
 
 .postsText{
@@ -642,6 +664,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCFCFC', end
 }
 
 @media screen and (max-width: 980px) {
+  .cubeArea {
+    height: 2em;
+    width: 100%;
+  }
+
+  .wrap {
+    margin: 0 auto;
+    margin-left: .2em;
+    margin-top: .1em;
+    width: 50%;
+  	perspective: 2000px;
+  	perspective-origin: 95% -150px;
+  }
+
+  .cube-wrap.vertical .cube {
+  	margin: 0 auto; /* keeps the cube centered */
+  	transform-origin: 0 150px;
+  	animation: spin-vertical 5s infinite linear;
+  }
 
   .bodyPage{
     background-image: url("/styles/kb_large.jpg");
@@ -857,7 +898,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCFCFC', end
 
   .postsTextTitle{
     font-size: 3em;
-    text-indent: 1em;
     width: 80%;
   }
 

@@ -19,36 +19,35 @@ export default React.createClass({
   render() {
     return (
       <div>
-
-      <section className="projectsArea">
-        <article className="cubeArea">
-          <div className="wrap"  >
-            <div className="cubeOut">
-              <div className="cube">
-                <h1 className="projectTitle">Projects</h1>
-                <div className="front">
-                  <p className="textFront">DollarTrak</p>
-                  <img className="dollarTrakImageCube" src="styles/DollarTrak.jpg" onClick={this.dollarTak}/>
-                </div>
-                <div className="back">
-                  <p className="textBack">Chat App</p>
-                  <img className="chatAppCube" src="styles/chat.jpg" onClick={this.chatApp}/>
-                </div>
-                <div className="top"></div>
-                <div className="bottom"></div>
-                <div className="left">
-                  <p className="textLeft">Spurs Blog</p>
-                  <img className="spursBlogImageCube" src="styles/SpursBlog.jpg" onClick={this.spursBlog}/>
-                </div>
-               <div className="right">
-                 <p className="textLeft">Tic-Tac-Toe</p>
-                 <img className="tic-tac-toeImageCube" src="styles/tic-tac-toe.jpg" onClick={this.tic_tac_toe}/>
+        <section className="projectsArea">
+          <article className="cubeArea">
+            <div className="wrap"  >
+              <div className="cubeOut">
+                <div className="cube">
+                  <h1 className="projectTitle">Projects</h1>
+                  <div className="front">
+                    <p className="textFront">DollarTrak</p>
+                    <img className="dollarTrakImageCube" src="styles/DollarTrak.jpg" onClick={this.dollarTak}/>
+                  </div>
+                  <div className="back">
+                    <p className="textBack">Chat App</p>
+                    <img className="chatAppCube" src="styles/chat.jpg" onClick={this.chatApp}/>
+                  </div>
+                  <div className="top"></div>
+                  <div className="bottom"></div>
+                  <div className="left">
+                    <p className="textLeft">Spurs Blog</p>
+                    <img className="spursBlogImageCube" src="styles/SpursBlog.jpg" onClick={this.spursBlog}/>
+                  </div>
+                 <div className="right">
+                   <p className="textLeft">Tic-Tac-Toe</p>
+                   <img className="tic-tac-toeImageCube" src="styles/tic-tac-toe.jpg" onClick={this.tic_tac_toe}/>
+                 </div>
                </div>
              </div>
            </div>
-         </div>
-        </article>
-      </section>
+          </article>
+        </section>
       </div>
     )
   }

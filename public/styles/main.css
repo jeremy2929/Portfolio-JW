@@ -2,16 +2,15 @@
   box-sizing: border-box;
 }
 
-
-.bodyPage{
+.bodyPage {
   background-image: url("/styles/kb.jpg")
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
-.navBar{
+.navBar {
  background-color: white;
  border: solid 4px #3F51B5;
  border-radius: 5px;
@@ -25,7 +24,7 @@
  z-index: 1;
 }
 
-.cubeArea{
+.cubeArea {
   height: 5em;
   width: 100%;
 }
@@ -35,7 +34,7 @@
 	perspective-origin: 70% 100px;
 }*/
 
-.wrap{
+.wrap {
   animation-duration: 3s;
   /*animation-name: slidein;*/
   animation-iteration-count: infinite;
@@ -64,7 +63,7 @@
   }
 }
 
-.projectTitle{
+.projectTitle {
   background-color: white;
   border: black solid .1em;
   font-size: .9em;
@@ -87,11 +86,7 @@
 	height: 300px;
 }
 
-
-
-
-
-.textTop{
+.textTop {
   color: white;
   margin-top: 5em;
   text-align: center;
@@ -107,7 +102,7 @@
   transform: scale(1, -1);
 }
 
-.textBottom{
+.textBottom {
   color: white;
   margin-top: 5em;
   text-align: center;
@@ -122,8 +117,6 @@
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
-
-
 
 .back {
   background-color: lightblue;
@@ -138,9 +131,19 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffff', endColorstr='#0F8040',GradientType=0 ); /* ie6-9 */
 }
 
-.textBack{
+.textBack {
   color: black;
-  margin-top: .7em;
+  font-size: .5em;
+  margin: 0;
+}
+
+.chatAppCube{
+  border: black solid 2px;
+  float: left;
+  height: 2.6em;
+  margin-top: .2em;
+  margin-left: .25em;
+  width: 3.2em;
 }
 
 .right {
@@ -158,14 +161,14 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF1C4D', endColorstr='#800F38',GradientType=0 ); /* ie6-9 */
 }
 
-.textRight{
+.textRight {
   color: white;
   font-size: .5em;
   margin: 0;
   text-align: center;
 }
 
-.tic-tac-toeImageCube{
+.tic-tac-toeImageCube {
   border: black solid 2px;
   float: left;
   height: 2.6em;
@@ -189,7 +192,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#5485FF',GradientType=0 ); /* ie6-9 */
 }
 
-.textLeft{
+.textLeft {
   color: white;
   font-size: .5em;
   margin: 0;
@@ -201,7 +204,7 @@
   float: left;
   height: 2.6em;
   margin-top: .2em;
-  margin-left: .2em;
+  margin-left: .15em;
   width: 3.4em;
 }
 
@@ -235,19 +238,19 @@
   width: 100%*/
 }
 
-.textFront{
+.textFront {
   color: black;
   font-size: .5em;
   margin: 0;
   text-align: center;
 }
 
-.dollarTrakImageCube{
-  border: grey solid 2px;
+.dollarTrakImageCube {
+  border: black solid 2px;
   float: left;
   height: 2.6em;
   margin-top: .2em;
-  margin-left: .2em;
+  margin-left: .15em;
   width: 3.4em;
 }
 
@@ -553,33 +556,6 @@
   margin-top: .2em;
 }
 
-/*.dollarTrakImage{
-  border: white solid 2px;
-  float: left;
-  height: 1em;
-  margin-top: .6em;
-  margin-left: 1em;
-  width: 1.7em;
-}
-
-.spursBlogImage{
-  border: white solid 2px;
-  float: left;
-  height: 1em;
-  margin-top: .6em;
-  margin-left: 1em;
-  width: 1.5em;
-}
-
-.tic-tac-toeImage{
-  border: black solid 2px;
-  float: left;
-  height: 1em;
-  margin-top: .6em;
-  margin-left: 1em;
-  width: 1em;
-}*/
-
 .bioText{
   color: black;
   font-size: 1.5em;
@@ -606,12 +582,13 @@
   font-weight: lighter;
   margin-top: 1%;
   margin-right: .3em;
+  text-indent: 1em;
 }
 
 .postsText{
   color: black;
   display: block;
-  font-size: 1em;
+  font-size: 2em;
   font-style: italic;
   font-weight: lighter;
   margin: 1%;
@@ -719,7 +696,6 @@
   opacity: .85;
 
 }
-
 
 @media screen and (max-width: 980px) {
 
@@ -891,24 +867,6 @@
     height: 6.9em;
   }
 
-  /*.dollarTrakImage{
-    margin-left: .3em;
-    height: 1.3em;
-    width: 2em;
-  }
-
-  .spursBlogImage{
-    margin-left: .3em;
-    height: 1.3em;
-    width: 2em;
-  }
-
-  .tic-tac-toeImage{
-    margin-left: .3em;
-    height: 1.3em;
-    width: 1.5em;
-  }*/
-
   .theIronYardTitle{
     font-size: 3em;
     margin-left: 1.7em;
@@ -955,6 +913,7 @@
 
   .postsTextTitle{
     font-size: 3em;
+    text-indent: 1em;
     width: 80%;
   }
 

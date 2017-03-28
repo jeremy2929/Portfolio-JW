@@ -4,8 +4,8 @@ import {Link} from 'react-router'
 import ReactDom from 'react-dom';
 
 export default React.createClass({
-  dollarTak() {
-    window.open("https://dollartrak.herokuapp.com", '_blank')
+  sudoku() {
+    window.open("https://sudoku-puzzle-sa.herokuapp.com", '_blank')
   },
   spursBlog() {
     window.open("https://spurs-project.herokuapp.com", '_blank')
@@ -26,8 +26,8 @@ export default React.createClass({
                 <div className="cube">
                   <h1 className="projectTitle">Projects</h1>
                   <div className="front">
-                    <p className="textFront">DollarTrak</p>
-                    <img className="dollarTrakImageCube" src="styles/DollarTrak.jpg" onClick={this.dollarTak}/>
+                    <p className="textFront">Sudoku Solver</p>
+                    <img className="sudokuImageCube" src="styles/sudoku.jpg" onClick={this.sudoku}/>
                   </div>
                   <div className="back">
                     <p className="textBack">Chat App</p>

@@ -614,6 +614,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCFCFC', end
   padding-bottom: 2em;
 }
 
+
+
 .photos{
   border: solid 5px;
   display: flex;
@@ -831,7 +833,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCFCFC', end
   }
 
   .textFront{
-    font-size: .6em;
+    font-size: .4em;
   }
 
   .textRight{
@@ -869,6 +871,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCFCFC', end
     font-size: 3em;
     margin-left: 2em;
   }
+
 
   .photos{
     margin: 0 auto;
